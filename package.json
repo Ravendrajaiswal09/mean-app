@@ -1,0 +1,16 @@
+{
+  "name": "angular-node",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "nodemon ./server/index",
+    "webpack": "webpack",
+    "build": "webpack --config webpack.config.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "lodash": "^4.17.5",
+    "mongodb": "^3.0.5"
+  },
+  "devDependencies": {}
+}
